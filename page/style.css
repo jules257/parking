@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin:0;
+}
+#container{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+}
+#logo{
+	width: 30%;
+}
+#logo img,h3{
+	display: inline;
+}
+#logo h3{
+	vertical-align: top;
+}
+#logo img{
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+	border-radius: 50%;
+	border:1px solid gray;
+}
+#liens{
+	width: 60%;
+}
+#liens ul{
+	float: right;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+#liens li{
+	display: inline;
+}
+#liens a{
+	text-decoration: none;
+	font-size: large;
+	color:#000;
+
+}
+#liens a:hover{
+	color:green;
+	border:1px solid red;
+	border-radius: 4px;
+}
+nav{
+	box-shadow: 10px 5px 22px #888;
+}
